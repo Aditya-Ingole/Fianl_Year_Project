@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <!-- <img src="logo.png" alt=""> -->
+            </div>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close"  onclick="closeMenu()"></i>
+                <ul>
+                  <a href="#"><li>HOME</li></a>
+                  <a href="/books/index.html" target="_blank"><li>BOOKS</li></a>
+                  <a href="/Notes/index.html" target="_blank"><li>NOTES</li></a>
+                  <a href="/roadmap/index.html" target="_blank"><li>ROADMAP</li></a>
+                  <a href="/blog/index.html" target="_blank"><li>BLOGS</li></a>
+                  <a href="/contact/index.html" target="_blank"><li>CONTACT</li></a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+
+
+
+        <div class="main">
+
+          <div class="card mb-3 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="resumejpg.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Resume Build 🎯</h5>
+                  <p class="card-text"> <b> 10 Resume Writing Tips To Help You Land a Job.</b></p>
+                  <p class="card-text"><small class="text-muted">Last updated 1 mon ago</small></p>
+                </div>
+                  <a href="https://in.indeed.com/career-advice/resumes-cover-letters/10-resume-writing-tips" target="_blank"><button type="button" class="btn btn-secondary btn-sm mb-3">Read More ➡</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="interview.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Interview Tips 💡</h5>
+                  <p class="card-text"> <b> 11 Tips for Cracking your Next Coding Interview .</b></p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <a href="https://levelup.gitconnected.com/11-tips-for-cracking-your-next-coding-interview-4e8a1a6fb4" target="_blank"><button type="button" class="btn btn-secondary btn-sm mb-3">Read More ➡</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="intership.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Get an Internship 🧿</h5>
+                  <p class="card-text"> <b>How To Get an Internship With No Experience</b> </p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <a href="https://www.indeed.com/career-advice/finding-a-job/how-to-get-an-internship-with-no-experience" target="_blank"><button type="button" class="btn btn-secondary btn-sm mb-3">Read More ➡</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="soft.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Great Soft Skill 🧲<h5>
+                  <p class="card-text">7 Soft Skills That Make a Great Software Developer </p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <a href="https://blog.filestack.com/thoughts-and-knowledge/7-soft-skills-great-software-developers/" target="_blank"><button type="button" class="btn btn-secondary btn-sm mb-3">Read More ➡</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="project.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Best Project 💯</h5>
+                  <p class="card-text"> <b> How to Choose the Best Coding Project? 5 Smart Criteria for Beginners </p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <a href="https://mikkegoes.com/choose-best-coding-project/" target="_blank"><button type="button" class="btn btn-secondary btn-sm mb-3">Read More ➡</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+           show.style.right = "0";
+
+        }
+
+        function closeMenu(){
+           show.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>

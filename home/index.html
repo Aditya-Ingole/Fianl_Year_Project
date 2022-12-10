@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <!-- <img src="logo.png" alt=""> -->
+            </div>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="#">
+                        <li>HOME</li>
+                    </a>
+                    <a href="/books/index.html" target="_blank">
+                        <li>BOOKS</li>
+                    </a>
+                    <a href="/Notes/index.html" target="_blank">
+                        <li>NOTES</li>
+                    </a>
+                    <a href="/roadmap/index.html" target="_blank">
+                        <li>ROADMAP</li>
+                    </a>
+                    <a href="/blog/index.html" target="_blank">
+                        <li>BLOGS</li>
+                    </a>
+                    <a href="/contact/index.html" target="_blank">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+
+        <div class="banner-title">
+            <h1>Knowledge Is <span>Power</span></h1>
+        </div>
+        <div class="vertical-btn">
+            <div class="search-icon">
+                <i class="fa fa-list"></i>
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="social-icons">
+                <a href="facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+
+                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter"></i></a>
+
+                <a href="https://telegram.org/" target="_blank"><i class="fa fa-telegram"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu() {
+            show.style.right = "0";
+
+        }
+
+        function closeMenu() {
+            show.style.right = "-200px";
+
+        }
+    </script>
+
+</body>
+
+</html>

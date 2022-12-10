@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <!-- <img src="logo.png" alt=""> -->
+            </div>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close"  onclick="closeMenu()"></i>
+                <ul>
+                  <a href="#"><li>HOME</li></a>
+                  <a href="/books/index.html" target="_blank"><li>BOOKS</li></a>
+                  <a href="/Notes/index.html" target="_blank"><li>NOTES</li></a>
+                  <a href="/roadmap/index.html" target="_blank"><li>ROADMAP</li></a>
+                  <a href="/blog/index.html" target="_blank"><li>BLOGS</li></a>
+                  <a href="/contact/index.html" target="_blank"><li>CONTACT</li></a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+
+        <div class="main">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card h-80">
+                  <img src="c png.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href=" "></a><h5 class="card-title">Click below for download</h5>
+                  </div>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto m-3">
+                 <a href="/Notes/notes/c .pdf" target="_blank"><button class="btn btn-primary" type="button">DOWNLOAD</button></a> 
+                </div>
+              </div>
+
+                <div class="col">
+                  <div class="card h-80">
+                    <img src="java 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Click below for download</h5>
+                    </div>
+                  </div>
+                  <div class="d-grid gap-2 col-6 mx-auto m-3">
+                    <a href="/Notes/notes/java.pdf" target="_blank"><button class="btn btn-primary" type="button">DOWNLOAD</button></a>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-80">
+                    <img src="python 1png.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Click below for download</h5>
+                    </div>
+                  </div>
+                  <div class="d-grid gap-2 col-6 mx-auto m-3">
+                    <a href="/Notes/notes/python.pdf" target="_blank"><button class="btn btn-primary" type="button">DOWNLOAD</button></a>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-80">
+                    <img src="mysql 1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Click below for download</h5>
+                    </div>
+                  </div>
+                  <div class="d-grid gap-2 col-6 mx-auto m-3">
+                    <a href="/Notes/notes/mysql_by_examples.pdf" target="_blank"><button class="btn btn-primary" type="button">DOWNLOAD</button></a>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-80">
+                    <img src="c++1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Click below for download</h5>
+                    </div>
+                  </div>
+                  <div class="d-grid gap-2 col-6 mx-auto m-3">
+                    <a href="/Notes/notes/c lang.pdf" target="_blank"><button class="btn btn-primary" type="button">DOWNLOAD</button></a>
+                  </div>
+                </div>
+                
+        </div>
+
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+           show.style.right = "0";
+
+        }
+
+        function closeMenu(){
+           show.style.right = "-200px";
+            
+        }
+    </script>
+
+</body>
+</html>
